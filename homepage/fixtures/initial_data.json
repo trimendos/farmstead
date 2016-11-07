@@ -1,0 +1,46 @@
+[
+  {
+    "model": "homepage.homepage",
+    "pk": 1,
+    "fields": {
+      "title": "Private estates turnkey",
+      "welcome": "<div class=\"header-content\">\r\n<div class=\"header-content-inner\">\r\n<h1><span style=\"color:#008000\">Your Favorite Source of Free Bootstrap Themes</span></h1>\r\n\r\n<hr />\r\n<p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>\r\n<a class=\"btn btn-primary btn-xl page-scroll\" href=\"#about\">Find Out More</a></div>\r\n</div>",
+      "about": "<div class=\"container\">\r\n<div class=\"row\">\r\n<div class=\"col-lg-8 col-lg-offset-2 text-center\">\r\n<h2>We&#39;ve got what you need!</h2>\r\n\r\n<hr />\r\n<p>Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>\r\n<a class=\"page-scroll btn btn-default btn-xl sr-button\" href=\"#services\">Get Started!</a></div>\r\n</div>\r\n</div>",
+      "services": "<div class=\"container\">\r\n<div class=\"row\">\r\n<div class=\"col-lg-12 text-center\">\r\n<h2>At Your Service</h2>\r\n\r\n<hr /></div>\r\n</div>\r\n</div>\r\n\r\n<div class=\"container\">\r\n<div class=\"row\">\r\n<div class=\"col-lg-3 col-md-6 text-center\">\r\n<div class=\"service-box\">\r\n<h3>Sturdy Templates</h3>\r\n\r\n<p>Our templates are updated regularly so they don&#39;t break.</p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col-lg-3 col-md-6 text-center\">\r\n<div class=\"service-box\">\r\n<h3>Ready to Ship</h3>\r\n\r\n<p>You can use this theme as is, or you can make changes!</p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col-lg-3 col-md-6 text-center\">\r\n<div class=\"service-box\">\r\n<h3>Up to Date</h3>\r\n\r\n<p>We update dependencies to keep things fresh.</p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col-lg-3 col-md-6 text-center\">\r\n<div class=\"service-box\">\r\n<h3>Made with Love</h3>\r\n\r\n<p>You have to make your websites with love these days!</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+      "portfolio": "<div class=\"container-fluid\">\r\n<div class=\"row no-gutter popup-gallery\">\r\n<div class=\"col-lg-4 col-sm-6\"><a class=\"portfolio-box\" href=\"static/homepage/img/portfolio/thumbnails/1.jpg\"><img alt=\"\" class=\"img-responsive\" src=\"/media/uploads/2016/11/05/1.jpg\" /></a></div>\r\n\r\n<div class=\"col-lg-4 col-sm-6\"><a class=\"portfolio-box\" href=\"static/homepage/img/portfolio/thumbnails/2.jpg\"><img alt=\"\" class=\"img-responsive\" src=\"/media/uploads/2016/11/06/2.jpg\" /> </a></div>\r\n\r\n<div class=\"col-lg-4 col-sm-6\"><a class=\"portfolio-box\" href=\"static/homepage/img/portfolio/thumbnails/3.jpg\"><img alt=\"\" class=\"img-responsive\" src=\"/media/uploads/2016/11/06/3.jpg\" /> </a></div>\r\n\r\n<div class=\"col-lg-4 col-sm-6\"><a class=\"portfolio-box\" href=\"static/homepage/img/portfolio/thumbnails/4.jpg\"><img alt=\"\" class=\"img-responsive\" src=\"/media/uploads/2016/11/06/4.jpg\" /> </a></div>\r\n\r\n<div class=\"col-lg-4 col-sm-6\"><a class=\"portfolio-box\" href=\"static/homepage/img/portfolio/thumbnails/5.jpg\"><img alt=\"\" class=\"img-responsive\" src=\"/media/uploads/2016/11/06/5.jpg\" /> </a></div>\r\n\r\n<div class=\"col-lg-4 col-sm-6\"><a class=\"portfolio-box\" href=\"static/homepage/img/portfolio/thumbnails/6.jpg\"><img alt=\"\" class=\"img-responsive\" src=\"/media/uploads/2016/11/06/6.jpg\" /></a></div>\r\n</div>\r\n</div>",
+      "contact": "<div class=\"container\">\r\n<div class=\"row\">\r\n<div class=\"col-lg-8 col-lg-offset-2 text-center\">\r\n<h2>Let&#39;s Get In Touch!</h2>\r\n\r\n<hr />\r\n<p>Ready to start your next project with us? That&#39;s great! Give us a call or send us an email and we will get back to you as soon as possible!</p>\r\n</div>\r\n\r\n<div class=\"col-lg-4 col-lg-offset-2 text-center\">\r\n<p>123-456-6789</p>\r\n</div>\r\n\r\n<div class=\"col-lg-4 text-center\">\r\n<p>feedback@startbootstrap.com</p>\r\n</div>\r\n</div>\r\n</div>"
+    }
+  },
+
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$30000$D6SrAJfVhAxf$lQiavExYjEL84zDOXK9+qSWfMV6xrbvh6bv5Ryirwog=",
+      "last_login": "2016-11-07T16:50:08.443Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@mail.ru",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2016-11-05T11:55:09.738Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2016-11-07T16:51:36.448Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "HomePage object",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
+    }
+  },
+]
